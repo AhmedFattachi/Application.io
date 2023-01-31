@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.139);
+    height: 100vh;
+}
+
+*{
+    text-decoration: none;
+}
+.nbr-voiture{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    width: 40%;
+    padding: 10px;
+    background-color: beige; 
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.ajouter{
+    background-color: rgb(108, 25, 25);
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+}
+
+.accueil{
+    background-color: rgb(108, 25, 25);
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajouter:hover{
+    box-shadow: 1px 1px 15px  black;
+    background-color: rgb(112, 27, 27);
+    border: 1px solid black;
+}
+
+.accueil:hover{
+    box-shadow: 1px 1px 15px  black;
+    background-color: rgb(112, 27, 27);
+    border: 1px solid black;
+}
+
+#acceuil{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#signe-ajouter{
+   font-size: 45px;
+   color: white;
+}
+strong{
+    color: white;
+    font-family: sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: auto;
+    background-color: white;
+}
+
+td{
+    height: 60px;
+    width: 150px;
+    
+}
+
+th{
+    background-color: rgb(108, 25, 25);
+    color: white;
+    border: 1px solid black;
+}
+
+tr{
+    height: 60px;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+
+#img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#img-voiture{
+    width: 70px;
+    height: 60px;
+}
+
+.contenut{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#center{
+    text-align: center;
+}
+
+#img-sup{
+    height: 35px;
+}
+
+#img-sup:hover{
+    transform: scale(1.5,1.5);
+    transition: 0.3s;
+
+}
+
+#td-sup{
+    text-align: center;
+}
+

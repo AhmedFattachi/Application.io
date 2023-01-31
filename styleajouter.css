@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.139);
+}
+* :focus{
+    outline: none;
+}
+
+label{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.contenut-pere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    width: 40%;
+    padding: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: beige; 
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.formulaire{
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.input{
+    margin: 10px;
+    width: 280px;
+    height: 30px;
+    border-radius: 3px;
+    border-style: none;
+    border: 1px solid;
+}
+
+#image{
+   margin: 10px;
+   width: 115px;
+   text-align: center;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: rgb(112, 27, 27);
+    height: 40px;
+    width: 145px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+}
+
+input.btn[type="submit"]:hover{
+    border: 2px solid black;
+    background-color: brown;
+}
+
+#btn_retour{
+    margin: 10px;
+    background-color: beige;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+#btn_retour:hover{
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px black;
+}
